@@ -1,0 +1,73 @@
+body {
+background-image: url(https://g.hizliresim.com/sari-yaprakli-yol);
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+body{
+    font-family:Arial;
+    font-size: 14 px;
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:blue;
+}
+
+li {
+    display: inline;
+    float: left;
+    
+}
+
+li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #010501;
+    padding: 8px;
+    display:block;
+    background-color:blue;
+    transition: ease-in-out all 230ms;
+  
+}
+
+li a:hover{
+    color: white;
+    background-color:black;
+    cursor: pointer;
+}
+
+.navbar {
+     background-color:rgb(255, 7, 7);
+     width: 100%;
+}
+    
+
+
+#msg {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    height: 150vh;
+}
+.text{
+     background-color: white;
+}
+
+   
+#video2 {
+     display: flex;
+     justify-content:center;
+     align-items: center ;
+     margin: 1px;
+     height: 100vh;
+}
